@@ -32,3 +32,68 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
     python evo_metrics.py
 
 ## Results
+
+### 00 Sequence
+
+<table>
+  <tr>
+    <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
+      <img src="images/xz.0.png" alt="Two Lines" width="350">
+      <p>Estimated Trajectory and Groundtruth Trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/ape0.1.png" alt="testing" width="350">
+      <p>Absolute Pose Error</p>
+    </td>
+    <td style="text-align:center;">
+      <img src="images/rpe1.png" alt="testing" width="350">
+      <p>Relative Pose Error</p>
+    </td>
+  </tr>
+</table>
+
+### 01 Sequence
+
+<table>
+  <tr>
+    <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
+      <img src="images/xz.1.png" alt="Two Lines" width="350">
+      <p>Estimated Trajectory and Groundtruth Trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/ape1.1.png" alt="testing" width="350">
+      <p>Absolute Pose Error</p>
+    </td>
+    <td style="text-align:center;">
+      <img src="images/rpe2.png" alt="testing" width="350">
+      <p>Relative Pose Error</p>
+    </td>
+  </tr>
+</table>
+
+### 02 Sequence
+
+<table>
+  <tr>
+    <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
+      <img src="images/xz.2.png" alt="Two Lines" width="350">
+      <p>Estimated Trajectory and Groundtruth Trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/ape2.1.png" alt="testing" width="350">
+      <p>Absolute Pose Error</p>
+    </td>
+    <td style="text-align:center;">
+      <img src="images/rpe3.png" alt="testing" width="350">
+      <p>Relative Pose Error</p>
+    </td>
+  </tr>
+</table>
+
+
