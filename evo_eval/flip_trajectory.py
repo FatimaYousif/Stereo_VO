@@ -18,5 +18,5 @@ def flip_trajectory_along_x(trajectory_file, output_file):
     np.savetxt(output_file, trajectory, fmt='%1.8e')
 
 for i in range(11):
-    flip_trajectory_along_x(trajectory_file=f"eval/results/{i:02d}_est.txt", 
-                            output_file=f"eval/results/{i:02d}_flip.txt")
+    flip_trajectory_along_x(trajectory_file=f"evo_eval/results/{i:02d}_est.txt", 
+                            output_file=f"evo_eval/results/{i:02d}_flip.txt")
