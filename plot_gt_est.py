@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-est_data = np.loadtxt("eval/results/10_est.txt")
-gt_data = np.loadtxt("eval/results/10_gt.txt")
+est_data = np.loadtxt("evo_eval/results/10_est.txt")
+gt_data = np.loadtxt("evo_eval/results/10_gt.txt")
 
 est_trajectory = est_data[:, [3, 11]]
 gt_trajectory = gt_data[:, [3, 11]]
