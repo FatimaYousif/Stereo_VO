@@ -49,7 +49,7 @@ for gt_file in gt_files:
             print(f"Command failed with error: {e}")
         
         # EVO APE - Plot and save metrics (Absolute Pose Error - APE)
-        command = f"evo_ape kitti {est_path} {trimmed_gt_path} -va --plot --plot_mode xz --save_results eval/results/{gt_file.split('_')[0]}.zip"
+        command = f"evo_ape kitti {est_path} {trimmed_gt_path} -va --plot --plot_mode xz --save_results evo_eval/results/{gt_file.split('_')[0]}.zip"
         try:
             subprocess.run(command, shell=True, check=True)
         except subprocess.CalledProcessError as e:
