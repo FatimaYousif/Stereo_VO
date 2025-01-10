@@ -27,7 +27,7 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
     python stereo_vo.py
 4. For checking the evaluation script:
    - Copy the groundtruth trajectories (_gt.txt) for 10 sequences and their estimated trajectories (_est.txt) in folder  `evo_eval/results`
-   - In the eval folder run:
+   - In the evo_eval folder run:
    ```bash
     python evo_metrics.py
 
