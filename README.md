@@ -32,6 +32,7 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
     python evo_metrics.py
 
 ## Results
+The below results were evaluated using EVO as suggested odometry and SLAM evaluation toolbox. We plotted X-Z trajectory, calculated APE (Absolute Pose Error) and RPE (Relative Pose Error) metrics using the same toolbox.
 
 ### 00 Sequence
 
@@ -48,7 +49,7 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
       <p>Absolute Pose Error</p>
     </td>
     <td style="text-align:center;">
-      <img src="images/rpe1.png" alt="testing" width="350">
+      <img src="images/rpe0.png" alt="testing" width="350">
       <p>Relative Pose Error</p>
     </td>
   </tr>
@@ -69,7 +70,7 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
       <p>Absolute Pose Error</p>
     </td>
     <td style="text-align:center;">
-      <img src="images/rpe2.png" alt="testing" width="350">
+      <img src="images/rpe1.png" alt="testing" width="350">
       <p>Relative Pose Error</p>
     </td>
   </tr>
@@ -90,7 +91,158 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
       <p>Absolute Pose Error</p>
     </td>
     <td style="text-align:center;">
+      <img src="images/rpe2.png" alt="testing" width="350">
+      <p>Relative Pose Error</p>
+    </td>
+  </tr>
+</table>
+
+### 03 Sequence
+
+<table>
+  <tr>
+    <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
+      <img src="images/xz.3.png" alt="Two Lines" width="350">
+      <p>Estimated Trajectory and Groundtruth Trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/ape3.1.png" alt="testing" width="350">
+      <p>Absolute Pose Error</p>
+    </td>
+    <td style="text-align:center;">
       <img src="images/rpe3.png" alt="testing" width="350">
+      <p>Relative Pose Error</p>
+    </td>
+  </tr>
+</table>
+
+### 05 Sequence
+
+<table>
+  <tr>
+    <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
+      <img src="images/xz.5.png" alt="Two Lines" width="350">
+      <p>Estimated Trajectory and Groundtruth Trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/ape5.1.png" alt="testing" width="350">
+      <p>Absolute Pose Error</p>
+    </td>
+    <td style="text-align:center;">
+      <img src="images/rpe5.png" alt="testing" width="350">
+      <p>Relative Pose Error</p>
+    </td>
+  </tr>
+</table>
+
+
+### 06 Sequence
+
+<table>
+  <tr>
+    <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
+      <img src="images/xz.6.png" alt="Two Lines" height="350">
+      <p>Estimated Trajectory and Groundtruth Trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/ape6.1.png" alt="testing" width="350">
+      <p>Absolute Pose Error</p>
+    </td>
+    <td style="text-align:center;">
+      <img src="images/rpe6.png" alt="testing" width="350">
+      <p>Relative Pose Error</p>
+    </td>
+  </tr>
+</table>
+
+### 07 Sequence
+
+<table>
+  <tr>
+    <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
+      <img src="images/xz.7.png" alt="Two Lines" width="350">
+      <p>Estimated Trajectory and Groundtruth Trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/ape7.1.png" alt="testing" width="350">
+      <p>Absolute Pose Error</p>
+    </td>
+    <td style="text-align:center;">
+      <img src="images/rpe7.png" alt="testing" width="350">
+      <p>Relative Pose Error</p>
+    </td>
+  </tr>
+</table>
+
+
+### 08 Sequence
+
+<table>
+  <tr>
+    <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
+      <img src="images/xz.7.png" alt="Two Lines" width="350">
+      <p>Estimated Trajectory and Groundtruth Trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/ape8.1.png" alt="testing" width="350">
+      <p>Absolute Pose Error</p>
+    </td>
+    <td style="text-align:center;">
+      <img src="images/rpe7.png" alt="testing" width="350">
+      <p>Relative Pose Error</p>
+    </td>
+  </tr>
+</table>
+
+
+### 09 Sequence
+
+<table>
+  <tr>
+    <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
+      <img src="images/xz.9.png" alt="Two Lines" width="350">
+      <p>Estimated Trajectory and Groundtruth Trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/ape9.1.png" alt="testing" width="350">
+      <p>Absolute Pose Error</p>
+    </td>
+    <td style="text-align:center;">
+      <img src="images/rpe9.png" alt="testing" width="350">
+      <p>Relative Pose Error</p>
+    </td>
+  </tr>
+</table>
+
+
+### 10 Sequence
+
+<table>
+  <tr>
+    <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
+      <img src="images/xz.10.png" alt="Two Lines" width="350">
+      <p>Estimated Trajectory and Groundtruth Trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      <img src="images/ape.10.png" alt="testing" width="350">
+      <p>Absolute Pose Error</p>
+    </td>
+    <td style="text-align:center;">
+      <img src="images/rpe10.png" alt="testing" width="350">
       <p>Relative Pose Error</p>
     </td>
   </tr>
