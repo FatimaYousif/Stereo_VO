@@ -14,6 +14,7 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
   - `numpy`
   - `opencv-python`
   - `pytorch`
+  - `tqdm`
 
 ## Installation
 1. Clone this repository:
