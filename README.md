@@ -189,7 +189,7 @@ The below results were evaluated using EVO as suggested odometry and SLAM evalua
 <table>
   <tr>
     <td colspan="2" style="display: flex; justify-content: center; text-align:center;">
-      <img src="images/xz.7.png" alt="Two Lines" width="350">
+      <img src="images/xz.8.png" alt="Two Lines" width="350">
       <p>Estimated Trajectory and Groundtruth Trajectory</p>
     </td>
   </tr>
@@ -199,7 +199,7 @@ The below results were evaluated using EVO as suggested odometry and SLAM evalua
       <p>Absolute Pose Error</p>
     </td>
     <td style="text-align:center;">
-      <img src="images/rpe7.png" alt="testing" width="350">
+      <img src="images/rpe8.png" alt="testing" width="350">
       <p>Relative Pose Error</p>
     </td>
   </tr>
