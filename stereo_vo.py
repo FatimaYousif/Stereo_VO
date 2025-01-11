@@ -41,7 +41,9 @@ class StereoOdometry:
     """
 
     def __init__(self) -> None:
-        self.base_dir = r"C:\Users\Fatima Rustamani\Desktop\Stereo_VO"
+        # self.base_dir = r"C:\Users\Fatima Rustamani\Desktop\Stereo_VO"
+        self.base_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+        self.base_dir = os.path.join(self.base_dir, "Stereo_VO")
         self.pose = np.eye(4, dtype=np.float64)
         self.results_dir = os.path.join(self.base_dir, "dataset", "results")
         self.colors = {"red": (0, 0, 255), "green": (0, 255, 0), "blue": (255, 0, 0), "yellow": (0, 255, 255),}
