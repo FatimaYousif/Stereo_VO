@@ -255,4 +255,7 @@ The results below were evaluated using EVO, a recommended odometry and SLAM eval
   </tr>
 </table>
 
+## Authors
+1. Fatima Yousif
+2. Sawera Yaseen
 
