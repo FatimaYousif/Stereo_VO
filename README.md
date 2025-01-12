@@ -23,7 +23,8 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
 2. Navigate to the cloned directory:
    ```bash
     cd Stereo_VO
-3. Run the main script:
+3. Load the KITTI dataset in the folder `dataset/`
+4. Run the main script:
    ```bash
     python stereo_vo.py
 4. For checking the evaluation script:
