@@ -1,6 +1,6 @@
 # Stereo Visual Odometry
 
-This repository contains the implementation of Stereo Visual Odometry (VO) pipeline in Python on the KITTI dataset. It processes stereo image data to estimate the motion of a camera (w.r.t its starting position) in 3D space. 
+This repository contains the implementation of Stereo Visual Odometry (VO) pipeline in Python on the KITTI dataset. It processes stereo image data to estimate the motion of a camera (w.r.t its starting position) in 3D space using the approach of minimizing the 3D to 2D reprojection error.
 
 <p align="center">
   <img src="https://github.com/FatimaYousif-01/Stereo_VO/blob/main/images/recording.gif"  width="400"/>
@@ -16,6 +16,7 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
 - Python 3.8 or higher
 - Required Python libraries:
   - `numpy`
+  - `matplotlib`
   - `opencv-python`
   - `pytorch`
   - `tqdm`
@@ -32,13 +33,13 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
    ```bash
     python stereo_vo.py
 4. For checking the evaluation script:
-   - Copy the groundtruth trajectories (_gt.txt) for 10 sequences and their estimated trajectories (_est.txt) in folder  `evo_eval/results`
+   - Copy the groundtruth trajectories (_gt.txt) for first 11 sequences and their estimated trajectories (_est.txt) in folder  `evo_eval/results`
    - In the evo_eval folder run:
    ```bash
     python evo_metrics.py
 
 ## Results
-The below results were evaluated using EVO as suggested odometry and SLAM evaluation toolbox. We plotted X-Z trajectory, calculated APE (Absolute Pose Error) and RPE (Relative Pose Error) metrics using the same toolbox.
+The results below were evaluated using EVO, a recommended odometry and SLAM evaluation toolbox. Using this tool, we plotted the X-Z trajectory and computed the Absolute Pose Error (APE) and Relative Pose Error (RPE) metrics.
 
 ### 00 Sequence
 
