@@ -3,7 +3,7 @@
 This repository contains the implementation of Stereo Visual Odometry (VO) pipeline in Python on the KITTI dataset. It processes stereo image data to estimate the motion of a camera (w.r.t its starting position) in 3D space. 
 
 <p align="center">
-  <img src="https://github.com/FatimaYousif-01/Stereo_VO/blob/main/images/recording.gif" />
+  <img src="https://github.com/FatimaYousif-01/Stereo_VO/blob/main/images/recording.gif"  width="400"/>
 </p>
 
 ## Features
