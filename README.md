@@ -11,7 +11,12 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
 - **Feature matching** using BFMatcher (Brute-Force Matcher)
 - **Triangulation** of points
 - **3D-2D motion estimation** using PnP (Perspective-n-Point) with RANSAC (Random Sample Consensus)
-  
+
+## Methodology
+<p align="center">
+  <img src="https://github.com/FatimaYousif-01/Stereo_VO/blob/main/images/meth.jpg"  width="400"/>
+</p>
+
 ## Requirements
 - Python 3.8 or higher
 - Required Python libraries:
