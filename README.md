@@ -14,7 +14,7 @@ This repository contains the implementation of Stereo Visual Odometry (VO) pipel
 
 ## Methodology
 <p align="center">
-  <img src="https://github.com/FatimaYousif-01/Stereo_VO/blob/main/images/meth.jpg"  width="400"/>
+  <img src="https://github.com/FatimaYousif/Stereo_VO/blob/main/images/meth.jpg"  width="400"/>
 </p>
 
 ## Requirements
